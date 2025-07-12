@@ -6,7 +6,7 @@
     let four, fourOne, fourTwo;
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree;
+    let seven, sevenOne, sevenTwo, sevenThree, sevenFour;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -214,10 +214,10 @@
     <h3 class="subSectionHeading" bind:this={sevenTwo}>7.2 Season Payout</h3>
     <p>Of the $30 buy-in, $25 will be allocated to the current season, for a total pot of $300. Third place will receive $25, second place will receive $50, and first place will receive the remaining $225.</p>
     
-    <h3 class="subSectionHeading" bind:this={sevenTwo}>7.3 Empire Payout</h3>
+    <h3 class="subSectionHeading" bind:this={sevenThree}>7.3 Empire Payout</h3>
     <p>The remaining $5 per person (totaling $60 per season) will be allocated to the empire pot. If someone triggers the empire clause, they will win the entire empire pot (minimum $120) in addition to first place payout.</p>
 
-    <h3 class="subSectionHeading" bind:this={sevenThree}>7.4 Leaving the League</h3>
+    <h3 class="subSectionHeading" bind:this={sevenFour}>7.4 Leaving the League</h3>
     <p>Not allowed. Jk, if you no longer want to be involved that's fine, but it is your responsibility to find a replacement owner. In a lot of cases, it is hard to find someone to take over a shitty team, so you might need to pay the entry fee for the following year to make a successful transition. Just be aware of that. Remember that the league will also reset, at which point you will be able to leave without needing to transition to a new owner.</p>
 
 </div>
